@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="133" viewBox="0 0 84 133">
+    <defs>
+        <filter id="a" width="111.8%" height="250%" x="-5.9%" y="-75%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-3 -8)">
+        <path stroke="#000" stroke-linecap="round" stroke-width="3" d="M51.125 14.616L29.508 9.888a7 7 0 0 0-8.03 4.33L5.126 56.815A7 7 0 0 0 8.188 65.4l38.773 22.157a3 3 0 0 0 4.29-1.53l24.056-62.67a3 3 0 0 0-2.16-4.006l-14.96-3.268"/>
+        <path stroke="#000" stroke-linecap="round" stroke-width="3" d="M50.63 67.48l6.747 2.59c8.492 3.26 18.018-.982 21.278-9.473 3.26-8.492-.982-18.018-9.474-21.278l-13.773-5.287M53.643 68.637l-3.504-1.345M46.174 65.77l-2.57-.987"/>
+        <ellipse cx="46.5" cy="137" fill="#E0E0E0" filter="url(#a)" opacity=".499" rx="25.5" ry="2"/>
+        <path stroke="#979797" stroke-dasharray="3,3" stroke-linecap="round" d="M60.009 79.954c17.306 3.827 30.777 36.869 6.48 30.04-12.144-3.412-3.234-19.224 6.759-10.71 4.204 3.583 4.002 10.797-.606 21.641M73.505 76.977c4.662 1.116 9.014 4.345 12.406 8.317"/>
+    </g>
+</svg>

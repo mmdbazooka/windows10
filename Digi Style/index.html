@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digi Style</title>
+</head>
+<body>
+    <div class="search-active" >
+        <div class="search-content">
+            <div class="back" onclick="backSearch()"><img src="Picture/close.png"></div>
+            <div class="search-input"><img src="Picture/search.png" ><input type="search" placeholder="جستجو کنید ..." ></div>
+            <div class="most-search">
+                <div>بیشترین جستجوهای اخیر:‌</div>
+                <ul>
+                    <li>#آویز ساعت طلا زنانه </li>
+                    <li>#پیراهن مردانه</li>
+                    <li>#کیف زنانه</li>
+                    <li>#کفش ورزشی مردانه</li>
+                    <li>#شلوار زنانه</li>
+                    <li>#ساعت مردانه</li>
+                    <li>#کرم مرطوب کننده</li>
+                    <li>#شامپو مو</li>
+                    <li>#اصلاح مو صورت</li>
+                </ul>
+            </div>
+        </div>
+            
+    </div>
+    
+    <div class="header">
+        <div class="hamburger-menu">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="search" onclick="searchActive()">
+                <input type="search" placeholder="جستجوی محصولات از ۲۰۰۰ برند" id="input-search">
+                <img src="Picture/search.png" width="20">
+            </div>
+            
+        </div>
+        <div class="center">
+            <div class="digi-style-img">
+                <img src="Picture/digi.svg" >
+            </div>
+            <div class="category">
+                <ul class="right-cat">
+                    <li>زنانه <div></div></li>
+                    <li>مردانه <div></div></li>
+                    <li>بچگانه 
+                        <div>
+                            <div class="top">
+                                <div><img src="Picture/lebas-icon.png" width="20"  onmouseenter="changeTabclothes(0)">لباس</div>
+                                <div><img src="Picture/kafsh-icon.png" width="20"  onmouseenter="changeTabclothes(1)">کفش</div>
+                                <div><img src="Picture/ecsesory-icon.png" width="20" onmouseenter="changeTabclothes(2)">اکسسوری</div>
+                            </div>
+                            <div class="tab-menu-gal">
+                                <div class="bottom">
+                                    <div class="right">
+                                        <ul>
+                                            <li>نوزادی ></li>
+                                            <li>ست</li>
+                                            <li>تی شرت و پولوشرت</li>
+                                            <li>شلوار و سرهمی</li>
+                                            <li>پیراهن و سارافون </li>
+                                            <li>پالتو بارانی کاپشن </li>
+                                            <li>سویشرت و هودی </li>
+                                            <li>لباس راحتی</li>
+                                            <li>بادی و لباس زیر</li>
+                                        </ul>
+                                        <ul>
+                                            <li>دخترانه ></li>
+                                            <li>ست</li>
+                                            <li>تی شرت و پولوشرت</li>
+                                            <li>شلوار و سرهمی</li>
+                                            <li>پیراهن و سارافون </li>
+                                            <li>پالتو بارانی کاپشن </li>
+                                            <li>سویشرت و هودی </li>
+                                            <li>لباس راحتی</li>
+                                            <li>بادی و لباس زیر</li>
+                                        </ul>
+                                        <ul>
+                                            <li>پسرانه ></li>
+                                            <li>ست</li>
+                                            <li>تی شرت و پولوشرت</li>
+                                            <li>شلوار و سرهمی</li>
+                                            <li>پیراهن و سارافون </li>
+                                            <li>پالتو بارانی کاپشن </li>
+                                            <li>سویشرت و هودی </li>
+                                            <li>لباس راحتی</li>
+                                            <li>بادی و لباس زیر</li>
+                                        </ul>
+                                    </div>
+                                    <div class="left">
+                                        <div>برترین برندهای لباس بچگانه</div>
+                                        <div class="container">
+                                            <div><img src="Picture/babyl1.jpeg"></div>
+                                            <div><img src="Picture/babyl2.jpeg"></div>
+                                            <div><img src="Picture/babyl3.jpeg"></div>
+                                            <div><img src="Picture/babyl4.jpeg"></div>
+                                        </div>
+                                        <div>مشاهده تمام برندها ></div>
+                                    </div>
+                                </div>
+
+                                <div class="bottom">
+                                    <div class="right">
+                                        <ul>
+                                            <li>نوزادی ></li>
+                                            <li>کفش تخت </li>
+                                            <li>کفش ورزشی</li>
+                                            <li>صندل </li>
+                                            <li>بوت نوزاد </li>
+                                            <li>تی شرت و پولوشرت</li>
+                                        </ul>
+                                        <ul>
+                                            <li>دخترانه ></li>
+                                            <li>کفش تخت </li>
+                                            <li>کفش ورزشی</li>
+                                            <li>صندل </li>
+                                            <li>بوت </li>
+                                            <li>تی شرت و پولوشرت</li>
+                                        </ul>
+                                        <ul>
+                                            <li>پسرانه ></li>
+                                            <li>کفش تخت </li>
+                                            <li>کفش ورزشی</li>
+                                            <li>صندل </li>
+                                            <li>بوت </li>
+                                            <li>تی شرت و پولوشرت</li>
+                                        </ul>
+                                    </div>
+                                    <div class="left">
+                                        <div>برترین برندهای کفش بچگانه </div>
+                                        <div class="container">
+                                            <div><img src="Picture/babyk1.jpeg"></div>
+                                            <div><img src="Picture/babyk2.jpeg"></div>
+                                            <div><img src="Picture/babyk3.jpeg"></div>
+                                            <div><img src="Picture/babyk4.jpeg"></div>
+                                        </div>
+                                        <div>مشاهده تمام برندها ></div>
+                                    </div>
+                                </div>
+
+                                <div class="bottom">
+                                    <div class="right">
+                                        <ul>
+                                            <li>نوزادی ></li>
+                                            <li>سرپوش </li>
+                                            <li>دستکش</li>
+                                            <li>پیش بند </li>
+                                            <li>اکسسوری </li>
+                                            <li>تی شرت و پولوشرت</li>
+                                        </ul>
+                                        <ul>
+                                            <li>دخترانه ></li>
+                                            <li>سرپوش </li>
+                                            <li>دستکش</li>
+                                            <li>پیش بند </li>
+                                            <li>اکسسوری </li>
+                                            <li>تی شرت و پولوشرت</li>
+                                        </ul>
+                                        <ul>
+                                            <li>پسرانه ></li>
+                                            <li>سرپوش </li>
+                                            <li>دستکش</li>
+                                            <li>پیش بند </li>
+                                            <li>اکسسوری </li>
+                                            <li>تی شرت و پولوشرت</li>
+                                        </ul>
+                                    </div>
+                                    <div class="left">
+                                        <div>برترین برندهای اکسسوری بچگانه</div>
+                                        <div class="container">
+                                            <div><img src="Picture/babya1.jpeg"></div>
+                                            <div><img src="Picture/babya2.jpeg"></div>
+                                            <div><img src="Picture/babya3.jpeg"></div>
+                                            <div><img src="Picture/babya4.jpeg"></div>
+                                        </div>
+                                        <div>مشاهده تمام برندها ></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>زیبایی و سلامت <div></div></li>
+                </ul>
+                <div class="center-cat"></div>
+                <ul class="left-cat">
+                    <li style="color: red;">حراج استایل</li>
+                    <li>برندها <div></div></li>
+                    <li>خانه ساعت</li>
+                    <li>مد پایدار</li>
+                </ul>
+            </div>
+            </div>
+            <div class="left">
+                <span>وارد شوید <div>مشاهده حساب کاربری</div></span>
+                <div>
+                    <img src="Picture/shopping-bag.png">
+                </div>
+            </div>
+            <div class="slideshow-gadget">
+                <ul>
+                    <li onclick="changeTab(0)"></li>
+                    <li onclick="changeTab(1)"></li>
+                    <li onclick="changeTab(2)"></li>
+                    <li onclick="changeTab(3)"></li>
+                    <li onclick="changeTab(4)"></li>
+                    <li onclick="changeTab(5)"></li>
+                    <li onclick="changeTab(6)"></li>
+                </ul>
+                <div>
+                    <div class="left">
+                        <img src="Picture/left.png" class="left-click" >
+                    </div>
+                    <div class="right">
+                        <img src="Picture/right.png" class="right-click">
+                    </div>
+                </div>
+            </div>
+            <div class="gal">
+                <img src="Picture/01.jpg">
+                <img src="Picture/02.jpg">
+                <img src="Picture/03.jpg">
+                <img src="Picture/04.jpg">
+                <img src="Picture/05.jpg">
+                <img src="Picture/06.jpg">
+                <img src="Picture/07.jpg">
+            </div>
+    </div>
+    <div class="content">
+        <div class="left">
+
+            <div class="left-btn"> < </div>
+            <div class="right-btn"> > </div>
+            
+            <div class="gal">
+
+                <div class="product">
+                    <div class="timer">۲۰:۴۱:۱۰</div>
+                    <div class="product-detail">
+                        <img src="Picture/kafsh.png">
+                        <div class="product-name-box">ساتین</div>
+                        <div class="under-menu">
+                            <div class="top">
+                                <div class="off">۴۰٪</div>
+                            </div>
+                            <div class="bottom">36 &nbsp; 37 &nbsp; 38 &nbsp; 39 &nbsp; 40</div>
+                        </div>
+                    </div>
+                    <div class="product-name">
+                        <div class="product-score"><img src="Picture/star.png"> ۳.۸ </div>
+                        کفش  روزمره زنانه ساتین 
+                    </div>
+                    <div class="product-price">
+                        <div>تومان &nbsp;</div><div>۵۸۰,۰۰۰ &nbsp;</div>
+                        <div class="product-price-off" style="text-decoration: line-through;">۹۷۳,۰۰۰</div>
+                    </div>
+                </div>
+                
+                <div class="product">
+                    <div class="timer">۲۰:۴۱:۱۰</div>
+                    <div class="product-detail">
+                        <img src="Picture/boloz.png">
+                        <div class="product-name-box">ناریان</div>
+                        <div class="under-menu">
+                            <div class="top">
+                                <div class="off">۴۰٪</div>
+                            </div>
+                            <div class="bottom">42 &nbsp; 40 &nbsp; 38 &nbsp; 36</div>
+                        </div>
+                    </div>
+                    <div class="product-name">
+                        <div class="product-score"><img src="Picture/star.png"> ۲ </div>
+                        بلوز زنانه ناریان 
+                    </div>
+                    <div class="product-price">
+                        <div>تومان &nbsp;</div><div>۳۰۱,۰۰۰ &nbsp;</div>
+                        <div class="product-price-off" style="text-decoration: line-through;">۴۹۸,۰۰۰</div>
+                    </div>
+                </div>
+    
+                <div class="product">
+                    <div class="timer">۲۰:۴۱:۱۰</div>
+                    <div class="product-detail">
+                        <img src="Picture/jorab.png">
+                        <div class="product-name-box">آریان نخ باف</div>
+                        <div class="under-menu">
+                            <div class="top">
+                                <div class="off">۵۷٪</div>
+                                <div class="size">تک‌ سایز</div>
+                            </div>
+                            <div class="bottom">M</div>
+                        </div>
+                    </div>
+                    <div class="product-name">
+                        <div class="product-score"><img src="Picture/star.png"> ۳.۸ </div>
+                        جوراب مردانه آریان نخ باف مدل 5121 بسته 3 عددی
+                    </div>
+                    <div class="product-price">
+                        <div>تومان &nbsp;</div><div>۷۷,۰۰۰ &nbsp;</div>
+                        <div class="product-price-off" style="text-decoration: line-through;">۱۸۰,۰۰۰</div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="timer">۲۰:۴۱:۱۰</div>
+                    <div class="product-detail">
+                        <img src="Picture/leg.png">
+                        <div class="product-name-box">افراتین</div>
+                        <div class="under-menu">
+                            <div class="top">
+                                <div class="off">۵۵٪</div>
+                            </div>
+                            <div class="bottom">L &nbsp; XL</div>
+                        </div>
+                    </div>
+                    <div class="product-name">
+                        <div class="product-score"><img src="Picture/star.png"> ۲.۶ </div>
+                        لگ زنانه افراتین مدل 5504 رنگ بنفش
+                    </div>
+                    <div class="product-price">
+                        <div>تومان &nbsp;</div><div>۸۹,۰۰۰ &nbsp;</div>
+                        <div class="product-price-off" style="text-decoration: line-through;">۱۹۹,۰۰۰</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right">
+            <img src="https://www.digistyle.com/static/files/0e30c462.svg" width="130">
+            <div class="see-all">مشاهده همه</div>
+        </div>
+    </div>
+
+    <div class="week-style">
+        <div class="week-style-content">
+            <div class="week-style-text">اســتـایلـــ هـفتـــه</div>
+            <div class="buy-all">خرید همه</div>
+
+            <div class="product">
+                <div class="product-detail">
+                    <img src="Picture/week-style-shirt.png">
+                    <div class="product-name-box">کروم</div>
+                    <div class="under-menu">
+                        <div class="top">
+                            <div class="off">۵۰٪</div>
+                        </div>
+                        <div class="bottom">L &nbsp; XL &nbsp; XLL</div>
+                    </div>
+                </div>
+                <div class="product-name">
+                    پلیور مردانه کروم مدل یقه اسکی
+                </div>
+                <div class="product-price">
+                    <div>تومان &nbsp;</div><div>۱,۱۴۴,۵۰۰ &nbsp;</div>
+                    <div class="product-price-off" style="text-decoration: line-through;">۲,۲۸۹,۰۰۰</div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-detail">
+                    <img src="Picture/week-style-shoes.png">
+                    <div class="product-name-box">کروماکی</div>
+                    <div class="under-menu">
+                        <div class="top">
+                            <div class="size" style="color:black;">تک‌ سایز</div>
+                        </div>
+                        <div class="bottom">40</div>
+                    </div>
+                </div>
+                <div class="product-name">
+                    کفش روزمره مردانه کروماکی
+                </div>
+                <div class="product-price">
+                    <div>تومان &nbsp;</div><div>۱,۵۰۰,۰۰۰ &nbsp;</div>
+                    
+                </div>
+            </div>
+            <img src="Picture/week-style.jpeg">
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab-buts">
+            <div onclick="changeTabContent(0)">مردانه</div>
+            <div onclick="changeTabContent(1)">زنانه</div>
+            <div onclick="changeTabContent(2)">بچگانه</div>
+            <div onclick="changeTabContent(3)">زیبایی و سلامت</div>
+        </div>
+        <div class="tab-gal">
+            <div class="container grid-tab">
+                <div><img src="Picture/mardane.jpeg"><div class="clothes-name">لباس مردانه</div></div>
+                <div><img src="Picture/mardane1.jpeg"><div class="clothes-name">ورزشی مردانه</div></div>
+                <div><img src="Picture/mardane2.jpeg"><div class="clothes-name">اکسسوری مردانه</div></div>
+                <div><img src="Picture/mardane3.jpeg"><div class="clothes-name">کفش مردانه</div></div>
+            </div>
+            <div class="container grid-tab">
+                <div><img src="Picture/zanane.jpeg"><div class="clothes-name">لباس زنانه</div></div>
+                <div><img src="Picture/zanane1.jpeg"><div class="clothes-name">ورزشی زنانه</div></div>
+                <div><img src="Picture/zanane2.jpeg"><div class="clothes-name">اکسسوری زنانه</div></div>
+                <div><img src="Picture/zanane3.jpeg"><div class="clothes-name">کفش زنانه</div></div>
+            </div>
+            <div class="container grid-tab">
+                <div><img src="Picture/nozad.jpeg"><div class="clothes-name">نوزاد</div></div>
+                <div><img src="Picture/pesarane.jpeg"><div class="clothes-name">پسرانه</div></div>
+                <div><img src="Picture/dokhtarane.jpeg"><div class="clothes-name">دخترانه</div></div>
+            </div>
+            <div class="container grid-tab">
+                <div><img src="Picture/health.jpeg"><div class="clothes-name">لوازم آرایشی</div></div>
+                <div><img src="Picture/health1.jpeg"><div class="clothes-name">ابزار سلامت</div></div>
+                <div><img src="Picture/health2.jpeg"><div class="clothes-name">عطر و ادکلن</div></div>
+                <div><img src="Picture/health3.jpeg"><div class="clothes-name">لوازم شخصی برقی</div></div>
+                <div><img src="Picture/health4.jpeg"><div class="clothes-name">لوازم بهداشتی</div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="health-beauty">
+        <div class="health-beauty-text">زیبـــایــی‌ و‌ ســـلـامــت</div>
+        <div class="health-beauty-content">
+            <div><img src="Picture/health-beauty1.jpeg" ></div>
+            <div><img src="Picture/health-beauty2.jpeg" ></div>
+            <div><img src="Picture/health-beauty3.jpeg" ></div>
+            <div><img src="Picture/health-beauty4.jpeg" ></div>
+        </div>
+    </div>
+
+    <div class="grid-pictures">
+        <img src="Picture/grid-1-1.jpeg" title="لباس گرم زنانه و مردانه">
+        <img src="Picture/grid-1-2.jpeg" title="انواع ساعت زنانه و مردانه">
+        <img src="Picture/grid-2-1.jpeg" title="لباس گرم بچگانه">
+        <img src="Picture/grid-2-2.jpeg" title="کفش ورزشی زنانه و مردانه">
+        <img src="Picture/grid-2-3.jpeg" title="انواع بوت و نیم بوت">
+    </div>
+
+    <div class="gift-card">
+        <img src="Picture/gift-card.jpg" title="کارت های هدیه دیجی استایل">
+    </div>
+
+    <div class="clothes-list">
+        <ul>
+            <li>زیبایی و سلامت</li>
+            <li>لوازم آرایشی</li>
+            <li>لوازم بهداشتی</li>
+            <li>لوازم شخصی برقی</li>
+            <li>عطر و ادکلن</li>
+            <li>ابزار سلامت</li>
+        </ul>
+        <ul>
+            <li>بچگانه</li>
+            <li>نوزاد</li>
+            <li>دخترانه</li>
+            <li>پسرانه</li>
+        </ul>
+        <ul>
+            <li>زنانه</li>
+            <li>لباس زنانه</li>
+            <li>کفش زنانه</li>
+            <li>اکسسوری زنانه</li>
+            <li>ورزشی زنانه</li>
+        </ul>
+        <ul>
+            <li>مردانه</li>
+            <li>لباس مردانه</li>
+            <li>کفش مردانه</li>
+            <li>اکسسوری مردانه </li>
+            <li>ورزشی مردانه</li>
+        </ul>
+    </div>
+
+    <div class="digi-style-properties">
+        <div><img src="Picture/orginal-item.svg"><div>ضمانت اصل بودن کالا</div></div>
+        <div><img src="Picture/14days-garanty.svg"><div> روز ضمانت بازگشت کالا <div>۱۴</div></div></div>
+        <div><img src="Picture/send-fast.svg"><div>تحویل سریع و آسان</div></div>
+    </div>
+
+    <div class="footer">
+        <img src="Picture/digi.svg" >
+        <div class="top">
+            <ul>
+                <li>
+                    <div onclick="jumpToTop()" title="بازگشت به بالا">^</div>
+                    :تلفن پشتیبانی <br>
+                     ۰۹۰۲۷۹۱۲۴۷۸
+                </li>
+                <li>
+                    <img src="Picture/telegram-logo.png" width="20" title="دیجی استایل در تلگرام">
+                    <img src="Picture/instagram-logo.png" width="20" title="دیجی استایل در اینستاگرام">
+                </li>
+                <li>ثبت‌ نام در خبرنامه دیجی‌استایل</li>
+                <li><img src="Picture/send-email.png"><input type="email" placeholder="ایمیل خود را وارد کنید"></li>
+            </ul>
+            <ul>
+                <li>اطلاعات دیجی‌استایل</li>
+                <li>درباره دیجی‌استایل </li>
+                <li>تماس با دیجی‌استایل </li>
+                <li>همکاری با دیجی‌استایل </li>
+            </ul>
+            <ul>
+                <li>خدمات مشتریان</li>
+                <li>پاسخ به پرسش‌های متداول </li>
+                <li>رویه‌های بازگرداندن کالا </li>
+                <li>شرایط استفاده</li>
+                <li>حریم خصوصی </li>
+            </ul>
+            <ul>
+                <li>خرید</li>
+                <li>زنانه</li>
+                <li>مردانه</li>
+                <li>بچگانه</li>
+                <li>زیبایی و سلامت</li>
+            </ul>
+        </div>
+        <div class="center">
+            <div class="download-digi-style">
+                <div class="right">دانلود اپلیکیشن دیجی‌استایل</div>
+                <div class="left">
+                    <img src="Picture/download-google-play.png">
+                    <img src="Picture/download-bazar.png">
+                    <img src="Picture/download-myket.png">
+                    <img src="Picture/download-sib-app.png">
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <img src="Picture/namad-e.png">
+                <img src="Picture/etehadie.png">
+                <img src="Picture/neshan-meli.png">
+            </div>
+            <div class="right">
+                <div>فروشگاه اینترنتی مد و لباس دیجی‌استایل</div>
+
+دیجی‌استایل، پس از تجربه‌ی موفق فروشگاه اینترنتی دیجی‌کالا به صورت تخصصی پا به عرصه مد، پوشاک و سبک زندگی گذاشت تا همان تجربه‌ی شیرین، در قالبی نو تکرار شود. در دیجی ‌استایل می‌توانید همه آنچه مرتبط با مد و پوشاک از انواع لباس زنانه، لباس مردانه و لباس بچگانه گرفته تا کیف و کفش و اکسسوری را با 
+تخفیف ویژه در حراج ها، پیدا کنید و به سادگی یک ست کامل از جدیدترین‌ برندهای معتبر را بخرید.
+            
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="left">digistyle.com - 2023 © Copyright</div>
+            <div class="right">.کليه حقوق اين سايت متعلق به دوقلو های افسانه ای می‌باشد </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

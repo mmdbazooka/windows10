@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Windows 10</title>
+</head>
+<body>
+    <div class="desktop">
+        <div class="shortcuts">
+            <div class="shortcut this-pc">
+                <img src="images/this-pc_11zon.png">
+                <div class="shortcut-name">This PC</div>
+            </div>
+            <div class="shortcut recycle-bin">
+                <img src="images/Recycle_Bin_Empty.png">
+                <div class="shortcut-name">Recycle Bin</div>
+            </div>
+            <div class="shortcut firefox">
+                <img src="images/Firefox_logo,_2019.svg.webp">
+                <div class="shortcut-name">Firefox</div>
+            </div>
+            <div class="shortcut vs-code">
+                <img src="images/vscode.png">
+                <div class="shortcut-name">Visual Studio Code</div>
+            </div>
+            <div class="shortcut folder-codes">
+                <img src="images/folder-img.png">
+                <div class="shortcut-name">Codes</div>
+            </div>
+        </div>
+        <div class="right-click">
+            <div>View <img src="images/vscode-left-angle.png" width="10"></div>
+            <div>Sort by <img src="images/vscode-left-angle.png" width="10"></div>
+            <div>Refresh</div>
+            <div class="hr"></div>
+            <div>New <img src="images/vscode-left-angle.png" width="10"></div>
+            <div class="hr"></div>
+            <div> <img src="images/display-settings.png" > Display settings</div>
+            <div> <img src="images/personalize.png" > Personalize</div>
+        </div>
+        <main class="this-pc-files">
+            <ul class="this-pc-header" draggable="true">
+                    <li class="close" ><img src="images/close.png" ></li> 
+                    <li class="maximize"><img src="images/maximize.png"  ></li> 
+                    <li class="minimize"><img src="images/minimize.png" ></li>
+            <span style="display: flex;flex-direction: row-reverse; align-items: center; position: absolute;left: 5px;top: 2px;">
+                <li style="margin-left: 5px;"> This PC </li> 
+                <li style="border-left: .5px solid gray;height: 15px;"></li>
+                <img src="images/quick-access-toolbar.png" style="margin-right: 5px;">
+                <img src="images/quick_access_toolbar_file_explorer.png"  >
+                <li style="border-left: .5px solid gray;height: 15px;"></li>
+                <img src="images/this-pc_11zon.png" width="20" height="20" style="margin-right: 5px;">
+            </span>
+            </ul>
+              <ul class="this-pc-top">
+                <li>File</li>
+                <li>Computer</li>
+                <li>View</li>
+              </ul>
+              <ul class="this-pc-head">
+                    <li><img src="images/properties.png" >Properties</li>
+                    <li><img src="images/file-explorer.png" width="45" height="40" style="margin-bottom: 5px;" >Open</li>
+                    <li><img src="images/Rename.png" height="40" width="45" style="margin-bottom: 5px;" >Rename</li>
+                    <li><img src="images/access-media.png" height="40" width="45" style="margin-bottom: 5px;" >Access Media<i class="fa fa-angle-down"></i></li>
+                    <li><img src="images/map-network-drive.png" height="40" width="45" style="margin-bottom: 5px;" >Map network drive<i class="fa fa-angle-down"></i></li>
+                    <li><img src="images/add-network-location.png" height="40" width="45" style="margin-bottom: 5px;" >Add a network location</li>
+                    <li><img src="images/open-settings.png" height="30" width="30" style="margin-bottom: 15px;" >Open settings</li>
+                    <div class="p-right">
+                    <li><img src="images/unistall-change.png" height="20" width="20"  >Unistall or change a program</li>
+                    <li><img src="images/system-properties.png" height="20" width="20"  >System properties</li>
+                    <li><img src="images/manage.png" height="20" width="20"  >Manage</li>    
+                </div>
+                </ul>
+                <div class="top-panel">
+                    <img src="images/top-panel-left.png"  width="40" height="40">
+                    <img src="images/top-panel-right.png" width="40" height="40">
+                    <img src="images/top-panel-bottom.png"width="40" height="40">
+                    <img src="images/top-panel-top.png"   width="30" height="40">
+                    <img src="images/top-panel-center.png" height="30">
+                    <img src="images/top-panel-center-bottom.png" >
+                    <img src="images/top-panel-center-refresh.png" >
+                    <input type="text" class="top-panel-input" placeholder="Search items">
+                </div>
+                <div class="container">
+                    <div class="left-menu">
+                        <ul>
+                            <li style="margin-left: -10px;"><i class="fa fa-angle-down"></i><img src="images/quick-access.png" width="20" >Quick access</li>
+                            <li><img src="images/desktop.png" width="20" >Desktop</li>
+                            <li><img src="images/downloads.png" width="20" >Downloads</li>
+                            <li><img src="images/documents-file.jpg" width="20" >Documents</li>
+                            <li><img src="images/pictures-file.jpg" width="20" >Pictures</li>
+                            <li class="carrent"><img src="images/thispc-files.jpg" width="20" >This PC</li>
+                            <li><img src="images/network.jpg" width="23" >Network</li>
+                        </ul>
+                    </div>
+                    <div class="right-menu">
+                        <div class="folders">
+                            <img src="images/down-angle.png" width="30">
+                            <div>Folders (7)</div>
+                            <div class="hr"></div>
+                            <ul>
+                                <li><img src="images/3d-object.png" >3D Objects</li>
+                                <li><img src="images/desktop-folder.png" >Desktop</li>
+                                <li><img src="images/documents-folder.png" >Documents</li>
+                                <li><img src="images/download-folder.png" >Downloads</li>
+                                <li><img src="images/music-folder.png" >Music</li>
+                                <li><img src="images/picture-folder.png" >Pictures</li>
+                                <li><img src="images/video-folder.png" >Videos</li>
+                            </ul>
+                        </div>
+                        <div class="disks">
+                            <img src="images/down-angle.png" width="30">
+                            <div>Devices and drives (2)</div>
+                            <div class="hr"></div>
+                            <ul>
+                                <li><img src="images/local-disk.png" ></li>
+                                <li><img src="images/disk-2.png" ></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <header class="recycle-bin-files" >
+            <ul class="recycle-header" draggable="true">
+                <li class="closer" ><img src="images/close.png" ></li> 
+                <li class="maximizer"><img src="images/maximize.png"  ></li> 
+                <li class="minimizer"><img src="images/minimize.png" ></li>
+                <span style="display: flex;flex-direction: row-reverse; align-items: center; position: absolute;left: 5px;top: 2px;">
+                    <li style="margin-left: 5px;">recycle-bin </li> 
+                    <li style="border-left: .5px solid gray;height: 15px;"></li>
+                    <img src="images/quick-access-toolbar.png" style="margin-right: 5px;">
+                    <img src="images/quick_access_toolbar_file_explorer.png"  >
+                    <li style="border-left: .5px solid gray;height: 15px;"></li>
+                    <img src="images/Recycle_Bin_Empty.png" width="20" height="20" style="margin-right: 5px;">
+                </span>
+            </ul>
+              <ul class="this-pc-top">
+                <li>File</li>
+                <li>Home</li>
+                <li>Share</li>
+                <li>View</li>
+              </ul>
+              <ul class="recycle-bin-head">
+                    <li style="text-align: center; width: 90px;margin-left: 5px;"><img src="images/Recycle_Bin_fill.png" width="35" height="40">Empty Recycle Bin</li>
+                    <li style="text-align: center; width: 90px;"><img src="images/recycle-bin-properties.png" width="45" height="40" >Recycle Bin Properties</li>
+                    <li style="text-align: center; width: 90px;"><img src="images/recycle-bin-restore-all.png" height="40" width="45"  >Restore all items</li>
+                    <li style="text-align: center; width: 110px;"><img src="images/recycle-bin-restore-selected.png" height="40" width="45"  >Restore the selected items</li>
+                </ul>
+                <div class="top-panel">
+                    <img src="images/top-panel-left.png"  width="40" height="40">
+                    <img src="images/top-panel-right.png" width="40" height="40">
+                    <img src="images/top-panel-bottom.png"width="40" height="40">
+                    <img src="images/top-panel-top.png"   width="30" height="40">
+                    <img src="images/top-panel-center-recycle.png" height="30">
+                    <img src="images/top-panel-center-bottom.png" >
+                    <img src="images/top-panel-center-refresh.png" >
+                    <input type="text" class="top-panel-input" placeholder="Search items">
+                </div>
+                <div class="container">
+                    <div class="left-menu">
+                        <ul>
+                            <li style="margin-left: -10px;"><i class="fa fa-angle-down"></i><img src="images/quick-access.png" width="20" >Quick access</li>
+                            <li><img src="images/desktop.png" width="20" >Desktop</li>
+                            <li><img src="images/downloads.png" width="20" >Downloads</li>
+                            <li><img src="images/documents-file.jpg" width="20" >Documents</li>
+                            <li><img src="images/pictures-file.jpg" width="20" >Pictures</li>
+                            <li class="carrent"><img src="images/Recycle_Bin_Empty.png" width="20" >Recycle Bin</li>
+                            <li><img src="images/network.jpg" width="23" >Network</li>
+                        </ul>
+                    </div>
+                    <div class="right-menu">
+                        
+                    </div>
+                </div>
+        </header>
+        <header class="mozila-firefox">
+            <ul class="firefox-header" draggable="true">
+                <div>
+                    <li class="closef" ><img src="images/close.png"></li> 
+                    <li class="maximizef"><img src="images/maximize.png" ></li> 
+                    <li class="minimizef"><img src="images/minimize.png" ></li>
+                </div>
+                <div class="firefox-tabs-parent">
+                    <div class="firefox-tabs">
+                        <div class="firefox-header-logo" title="Firefox View"><img src="images/Firefox_logo,_2019.svg.webp" ></div>
+                        <div class="border"></div>
+                        <div class="new-tab current-tab">
+                            <div class="tab-name"><img src="images/Firefox_logo,_2019.svg.webp" width="15"><div>New Tab</div> </div>
+                            <img src="images/firefox-close-tab.png" class="close-tab" >
+                        </div>
+                    </div>
+                    <div class="add-tab"><img src="images/firefox-add.png" ></div>
+                </div>
+            </ul>
+            <div class="top-panel">
+                <div class="top">
+                    <ul class="left">
+                        <li><img src="images/firefox-left.png" ></li>
+                        <li><img src="images/firefox-left.png" style="transform: scaleX(-1);"></li>
+                        <li><img src="images/firefox-refresh.png" ></li>
+                    </ul>
+                    <div class="center">
+                        <img src="images/firefox-search-icon.png" class="search-icon-in-firefox1">
+                        <input type="search" placeholder="Search with Google or enter address" class="search-in-firefox1">
+                    </div>
+                    <ul class="right">
+                        <li><img src="images/firefox-save-to-pocket.png" title="Save to Pocket"></li>
+                        <li><img src="images/firefox-downloads.png" title="Display the progress of ongoing downloads (Ctrl + J)"></li>
+                        <li><img src="images/firefox-extentions.png" title="Extensions"></li>
+                        <li><img src="images/firefox-hamburger-menu.png" title="Open application menu"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="top"><img src="images/settings.png" alt=""></div>
+                <div class="bottom">
+                    <img src="images/firefox-center.png" >
+                    <div class="search">
+                        <img src="images/firefox-google-input-icon.png" >
+                        <input type="text" placeholder="Search with Google or enter address" class="search-in-firefox">
+                        <img src="images/firefox-search-icon.png" class="search-icon-in-firefox">
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <iframe src="shixon/index.htm" frameborder="0" class="shixon" loading="lazy"></iframe>
+            <iframe src="amazon/index.html" frameborder="0" class="amazon" loading="lazy"></iframe>
+            <iframe src="Digi Style/index.html" frameborder="0" class="digi-style" loading="lazy"></iframe>
+        </header>
+        <header class="visual-studio-code">
+            <ul class="vs-code-header" draggable="true">
+                <div>
+                    <li class="closev" ><img src="images/closez.png" ></li> 
+                    <li class="maximizev"><img src="images/maximizez.png"  ></li> 
+                    <li class="minimizev"><img src="images/minimizez.png"  ></li>
+                    <li title="Customize Layout..."><img src="images/vscode-right-bottom-tab.png" class="vs-code-tools"></li>
+                    <li title="Toggle Secondary Side Bar (Ctrl+Alt+B)"><img src="images/vscode-right-tab.png" class="vs-code-tools"></li>
+                    <li title="Toggle Panel (Ctrl+J)"><img src="images/vscode-bottom-tab.png" class="vs-code-tools"></li>
+                    <li title="Toggle Primary Side Bar (Ctrl+B)"><img src="images/vscode-left-tab.png" class="vs-code-tools"></li>
+                </div>
+                <div class="vs-title" style="display: none;">Visual Studio Code</div>
+                <div>
+                    <li>Help </li>
+                    <li>Edit </li>
+                    <li>Selection </li>
+                    <li>View </li>
+                    <li>Go </li>
+                    <li>Run </li>
+                    <li>Terminal </li>
+                    <li >File </li>
+                    <li><img src="images/vscode.png" ></li>
+                </div>
+            </ul>
+            <div class="work-space">
+                <div class="left">
+                    <div class="left">
+                        <div class="top">
+                            <div onclick="selectVSTool(0)" class="selected-vs-tool" title="Explorer"><img src="images/vscode-explorer.png" ></div>
+                            <div onclick="selectVSTool(1)" title="Search"><img src="images/vscode-search.png" ></div>
+                            <div onclick="selectVSTool(2)" title="Source Control"><img src="images/vscode-source-control.png" ></div>
+                            <div onclick="selectVSTool(3)" title="Run and Debug"><img src="images/vscode-run-debug.png" ></div>
+                            <div onclick="selectVSTool(4)" title="Extensions"><img src="images/vscode-extensions.png" ></div>
+                        </div>
+                        <div class="bottom">
+                            <div title="Account"><img src="images/vscode-user.png" ></div>
+                            <div title="Manage"><img src="images/vscode-setting.png" ></div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="top">
+                            <div>EXPLORER <img src="images/vscode-etcetera.png" alt="Views and More Actions"></div>
+                            <div><img src="images/vscode-down-angle.png" > UNITITLED (WORKSPACE)</div>
+                            <div><img src="images/vscode-down-angle.png" > Codes</div>
+                            <div onclick="selectedCodeTab1(0)" class="select-code-tab select-code-tab-active"><img src="images/vscode-html.png" >index.htm</div>
+                            <div onclick="selectedCodeTab1(1)" class="select-code-tab"><img src="images/vscode-css.png" >style.css</div>
+                            <div onclick="selectedCodeTab1(2)" class="select-code-tab"><img src="images/vscode-js.png" >script.js</div>
+                        </div>
+                        <div class="bottom">
+                            <div><img src="images/vscode-left-angle.png" > OUTLINE</div>
+                            <div><img src="images/vscode-left-angle.png" > TIMELINE</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <div onclick="selectedCodeTab(0)" class="selected-code-tab"><img src="images/vscode-html.png" >index.htm <img src="images/closez.png" onclick="closeCodeTab(0)"></div>
+                        <div onclick="selectedCodeTab(1)"><img src="images/vscode-css.png" >style.css <img src="images/closez.png" onclick="closeCodeTab(1)"></div>
+                        <div onclick="selectedCodeTab(2)"><img src="images/vscode-js.png" >script.js <img src="images/closez.png" onclick="closeCodeTab(2)"></div>
+                    </div>
+                    <div class="center">
+                        <div class="js-tab"><textarea class="js-code-tab" spellcheck="false"></textarea></div>
+                        <div class="css-tab"><textarea class="css-code-tab" spellcheck="false"></textarea></div>
+                        <div class="html-tab"><textarea class="html-code-tab" spellcheck="false"></textarea></div>
+                    </div>
+                    <div class="bottom">
+                        <div class="left" title="No Problems">
+                            <img src="images/vscode-error.png" > 0 <img src="images/vscode-warning.png" > 0
+                        </div>
+                        <div class="right">
+                            <img src="images/vscode-notifications.png" title="No Notifications"> <img src="images/vscode-feedback.png" title="Tweet Feedback">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header class="this-pc-files folder">
+            <ul class="this-pc-header folder-header" draggable="true">
+                <li class="closefol" ><img src="images/close.png" ></li> 
+                <li class="maximizefol"><img src="images/maximize.png"  ></li> 
+                <li class="minimizefol"><img src="images/minimize.png" ></li>
+        <span style="display: flex;flex-direction: row-reverse; align-items: center; position: absolute;left: 5px;top: 2px;">
+            <li style="margin-left: 5px;"> Codes </li> 
+            <li style="border-left: .5px solid gray;height: 15px;"></li>
+            <img src="images/quick-access-toolbar.png" style="margin-right: 5px;">
+            <img src="images/quick_access_toolbar_file_explorer.png"  >
+            <li style="border-left: .5px solid gray;height: 15px;"></li>
+            <img src="images/this-pc_11zon.png" width="20" height="20" style="margin-right: 5px;">
+        </span>
+        </ul>
+          <ul class="this-pc-top">
+            <li>File</li>
+            <li>Computer</li>
+            <li>View</li>
+          </ul>
+          <ul class="this-pc-head">
+                <li><img src="images/properties.png" >Properties</li>
+                <li><img src="images/file-explorer.png" width="45" height="40" style="margin-bottom: 5px;" >Open</li>
+                <li><img src="images/Rename.png" height="40" width="45" style="margin-bottom: 5px;" >Rename</li>
+                <li><img src="images/access-media.png" height="40" width="45" style="margin-bottom: 5px;" >Access Media<i class="fa fa-angle-down"></i></li>
+                <li><img src="images/map-network-drive.png" height="40" width="45" style="margin-bottom: 5px;" >Map network drive<i class="fa fa-angle-down"></i></li>
+                <li><img src="images/add-network-location.png" height="40" width="45" style="margin-bottom: 5px;" >Add a network location</li>
+                <li><img src="images/open-settings.png" height="30" width="30" style="margin-bottom: 15px;" >Open settings</li>
+                <div class="p-right">
+                <li><img src="images/unistall-change.png" height="20" width="20"  >Unistall or change a program</li>
+                <li><img src="images/system-properties.png" height="20" width="20"  >System properties</li>
+                <li><img src="images/manage.png" height="20" width="20"  >Manage</li>    
+            </div>
+            </ul>
+            <div class="top-panel">
+                <img src="images/top-panel-left.png"  width="40" height="40">
+                <img src="images/top-panel-right.png" width="40" height="40">
+                <img src="images/top-panel-bottom.png"width="40" height="40">
+                <img src="images/top-panel-top.png"   width="30" height="40">
+                <img src="images/top-panel-center-folder.png" height="30">
+                <img src="images/top-panel-center-bottom.png" >
+                <img src="images/top-panel-center-refresh.png" >
+                <input type="text" class="top-panel-input" placeholder="Search items">
+            </div>
+            <div class="container">
+                <div class="left-menu">
+                    <ul>
+                        <li style="margin-left: -10px;"><i class="fa fa-angle-down"></i><img src="images/quick-access.png" width="20" >Quick access</li>
+                        <li><img src="images/desktop.png" width="20" >Desktop</li>
+                        <li><img src="images/downloads.png" width="20" >Downloads</li>
+                        <li><img src="images/documents-file.jpg" width="20" >Documents</li>
+                        <li><img src="images/pictures-file.jpg" width="20" >Pictures</li>
+                        <li><img src="images/thispc-files.jpg" width="20" >This PC</li>
+                        <li><img src="images/network.jpg" width="23" >Network</li>
+                        <li class="carrent"><img src="images/folder.png" width="23" >Codes</li>
+                    </ul>
+                </div>
+                <div class="right-menu">
+                    <div><span>Name </span> <span>Date modified</span> <span>Type</span> <span>Size</span></div>
+                    <div onclick="selectFile(1)"><span><img src="images/html-file.png" >index.htm </span> <span>22/14/2023 1:23 AM</span> <span>Firefox HTML Doc...</span> <span>0 KB</span></div>
+                    <div onclick="selectFile(2)"><span><img src="images/css-file.png" >style.css </span> <span>22/14/2023 1:23 AM</span> <span>CSS Source File</span> <span>0 KB</span></div>
+                    <div onclick="selectFile(3)"><span><img src="images/js-file.png" >script.js </span> <span>22/14/2023 1:23 AM</span> <span>JavaScript Source...</span> <span>0 KB</span></div>
+                </div>
+            </div>
+        </header>
+        <div class="task-bar" >
+            <div class="windows-logo" onmouseover="selectedImg();" onmouseout="normal();">
+                <div class="menu-container">
+                    <div class="button" title="start">
+                        <span class="windows-logo-img" > </span>
+                    </div>
+                </div>
+            </div>
+            <ul class="start-menu-left" style="bottom: -550px;">
+                <li><img src="images/menu.png" width="28">START</li>
+                <li><img src="images/user.png" width="22">Bazooka</li>
+                <li><img src="images/pictures.png" width="22" height="30">Picture</li>
+                <li><img src="images/documents.png" width="20" >Documents</li>
+                <li><img src="images/settings.png" width="24"><span>Settings</span></li>
+                <li class="power"><img src="images/Shutdown-wallpaper1.png" width="20">Power 
+                    <div class="power-menu" style="visibility: hidden;bottom: 50px;">
+                        <div class="sleep"><img src="images/sleep.png" width="20">Sleep</div>
+                        <div class="shut-down-btn"><img src="images/Shutdown-wallpaper1.png" width="20"><span>Shut down</span></div>
+                        <div class="restart"><img src="images/restart.png" width="22">Restart</div>
+                    </div>
+                </li>
+            </ul>
+            <input type="text" placeholder=" Type here to search" class="windows-search-input">
+            <div class="cortana" title="Talk to Cortana">
+                <img src="images/Microsoft_Cortana_transparent.svg.png" width="20" height="20" >
+            </div>
+            <div class="task-view" title="Task View">
+                <img src="images/task-view.png" width="25" height="25">
+            </div>
+            <div class="this-pc-logo lg" title="File explorer" >
+                <img src="images/this-pc_11zon.png" width="40" height="40">
+            </div>
+            <div class="recycle-bin-logo lg" title="recycle bin">
+                <img src="images/Recycle_Bin_fill.png" width="35" height="45" >
+            </div>
+            <div class="firefox-logo lg" title="firefox">
+                <img src="images/Firefox_logo,_2019.svg.webp" width="30" height="30" >
+            </div>
+            <div class="vs-code-logo lg" title="visual studio code">
+                <img src="images/vscode.png" width="30" height="30" >
+            </div>
+            <div class="folder-logo lg" title="File explorer" >
+                <img src="images/file-explorer.png" width="45" height="45">
+            </div>
+            <span class="notification-area">
+                <div class="show-hidden-icons" title="Show hidden icons">
+                    <img src="images/show-hidden-icons.png" width="12" height="7" >
+                </div>
+                <div class="network" title="Netwoek 69
+Internet access">
+                    <img src="images/network.png" width="22" height="22">
+                </div>
+                <div class="speaker" title="Speakers : 90%">
+                    <img src="images/speaker.png" width="35" height="35">
+                </div>
+                <div class="language" style="width: 40px;" title="English (United States)
+US keyboard
+ 
+to switch input methods, press 
+Windows key+Space">
+                    <img src="images/language.png" width="35" height="35">
+                </div>
+                <div class="time-date" style="padding: 0 35px; margin: 0 5px;" title="Saturday, February 9, 2023 ">
+                    <span width="60" height="35" style="display: flex; flex-direction: column;font-family:Arial, Helvetica, sans-serif;">
+                        <span class="time"></span>
+                        <span class="date"></span>
+                    </span>
+                </div>
+                <div class="notification" style="width: 40px;" title="No new notifications" >
+                    <img src="images/notifications.png" width="50" height="50" >
+                </div>
+            </span>
+        </div>
+        <div class="notification-menu">
+            <div class="manage-notification">Manage notifications</div>
+            <div class="notifications">No new notification</div>
+            <div class="mods">
+                <div class="tablet-mode" onclick="changeModes(0)"> <img src="images/tablet-mode.png" > Tablet mode </div>
+                <div class="location" onclick="changeModes(1)"> <img src="images/location.png" >Location</div>
+                <div class="night-light" onclick="changeModes(2)"> <img src="images/night-light.png" > Night light </div>
+                <div class="setting" onclick="changeModes(3)"> <img src="images/settings.png" > All settings </div>
+            </div>
+        </div>
+        <div class="windows-search-tab">
+            <div class="top">
+                <div class="left">
+                    <div>All</div>
+                    <div>Apps</div>
+                    <div>Documents</div>
+                    <div>Email</div>
+                    <div>Web</div>
+                    <div>More</div>
+                </div>
+                <div class="right">
+                    <div>Feedback</div>
+                    <div><img src="images/search-win-etcetera.png" width="30"></div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Top apps</div>
+                <div class="top-apps">
+                    <div onclick="firefox.style.visibility = 'visible';firefox.style.zIndex = zIndex ++;firefoxLogo.className = 'firefox-logo-active'">
+                        <img src="images/Firefox_logo,_2019.svg.webp" >Firefox</div>
+                    <div onclick="vscode.style.visibility = 'visible';vscode.style.zIndex = zIndex ++;vscodeLogo.className = 'vs-code-logo-active'">
+                        <img src="images/vscode.png" >Visual Studio Code </div>
+                    <div onclick="fileExplore.style.visibility = 'visible';fileExplore.style.zIndex = zIndex ++;thisPcLogo.className = 'this-pc-logo-active'">
+                        <img src="images/file-explorer.png" >File Explorer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shut-down" style="visibility: hidden;">
+        click page to start window
+        <div class="shuting-down-window">
+            <img src="images/windows-logo.jpg" >
+            <div></div>
+            Shutting down
+        </div>
+        <div class="starting-window">
+            <img src="images/windows-logo.jpg" >
+            <div></div>
+            Starting window
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
